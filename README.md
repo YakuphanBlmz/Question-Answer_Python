@@ -169,7 +169,7 @@ anket = {"Anadili" : "Türkçe" , "Yaşı" : 21 , "YabancıDil" : "Türkçe"}
 *  Integer
 *  Float
 
-**Cevap :** Listenin, primitif olmayan (basit olmayan) bir veri türüdür. Liste, birden çok öğeyi içerebilen ve değiştirilebilen bir veri yapısıdır, bu nedenle diğer seçeneklerden farklıdır.
+**Cevap :** Liste yapısı, primitif olmayan (basit olmayan) bir veri türüdür. Liste, birden çok öğeyi içerebilen ve değiştirilebilen bir veri yapısıdır, bu nedenle diğer seçeneklerden farklıdır.
 
 **"Primitif"** terimi genellikle basit veya temel anlamına gelir. Programlama bağlamında, "primitif veri türleri" temel veri tiplerini ifade eder. Bu veri tipleri, dilin temel yapısını oluşturan ve daha karmaşık veri yapıları ve nesnelerin yapı taşları olan veri tipleridir.
 
