@@ -44,12 +44,16 @@ print(l1.pop())
 *  Tuple'lar genellikle farklı veri tiplerinden öğeler içerebilir ve karışık veri yapılarında kullanılabilirler. Örneğin: <br>
 ```mixed_tuple = ("apple", 3, True, 2.5)```
 * Tuple'lar genellikle sabit veri koleksiyonları için kullanılır ve verilerin değiştirilemezliği nedeniyle, programların güvenli ve tutarlı çalışmasını sağlarlar. Tuple'lar ayrıca işlevlerden birden fazla değer döndürmek için de kullanılır. Örneğin: <br>
-```def get_coordinates<br>
-    ```return (10, 20)<br>
+```
+def get_coordinates():
+    return (10, 20)
 
-```x, y = get_coordinates()<br>
-```print("x:", x)<br>
-```print("y:", y)<br><br>
+x, y = get_coordinates()
+print("x:", x)
+print("y:", y)
+```
+<br><br>
+
 
 
 
