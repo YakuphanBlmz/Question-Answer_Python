@@ -34,8 +34,8 @@ print(l1.pop())
 
 <br><br>
 
-**Soru 3 :** Aşağıdaki verinin türü nedir?
-```Haftaİçi = ("Pazartesi")```
+**Soru 3 :** Aşağıdaki verinin türü nedir? <br>
+```Haftaİçi = ("Pazartesi","Salı","Çarşamba","Perşembe","Cuma")```
 
 **Cevap :** *Tuple*
 
