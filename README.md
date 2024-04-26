@@ -22,7 +22,7 @@
 **Soru 2 :** Aşağıdaki programın ekran çıktısı hangisidir?<br>
 ```l1 = ["Süt", "Yumurta", "Kabartma Tozu"]
 ```l1.append("un")
-```print(l1.pop())
+```print(l1.pop())```
 
 **Cevap :** Çıktı şu şekilde olacaktır : **```un```**<br>
 *  İlk olarak, *l1* adında bir liste oluşturulmuştur: ```["Süt", "Yumurta", "Kabartma Tozu"]```
