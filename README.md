@@ -1,5 +1,5 @@
 #### BİLECİK ÜNİVERSİTESİ - University_Exam_Question_Answers_Data_Structures_Lesson 
-<br> <br> 
+<br> 
 
 **Soru 1 :** Aşağıdaki veri türlerinden hangilerinde sayısal ve metinsel ifadeler birlikte kullanılabilir?
    * Tuple
