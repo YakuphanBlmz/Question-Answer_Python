@@ -1,6 +1,6 @@
 # Question-Answer_Python
 
-**Soru 1:** Aşağıdaki veri türlerinden hangilerinde sayısal ve metinsel ifadeler birlikte kullanılabilir?
+**Soru 1 :** Aşağıdaki veri türlerinden hangilerinde sayısal ve metinsel ifadeler birlikte kullanılabilir?
    * Tuple
    * List
    * Dictionary
@@ -17,5 +17,11 @@
 *   **Dictionary** : Aşağıda ise Dictionary içinde bir metin dizisi ("isim"), bir tamsayı (yas) ve bir metin dizisi daha ("il") bulunmaktadır. Bu yapıda anahtarlar (keys) metinsel ifadeler olabilirken, değerler (values) herhangi bir veri türü olabilir.
 ```my_dict = {"isim": "Yakuphan", "yas": 21, "il": "Erzurum"}```
 
+<br><br>
+
+**Soru 2 :** Aşağıdaki programın ekran çıktısı hangisidir?<br>
+```l1 = ["Süt", "Yumurta", "Kabartma Tozu"]```
+```l1.append("un")```
+```print(l1.pop())```
 
 
