@@ -1,4 +1,4 @@
-![icon@2x](https://github.com/YakuphanBlmz/Question-Answer_Python/assets/106194461/1e146c2d-6719-4405-8130-c6a4ce9dc937)# Question-Answer_Python
+#### BİLECİK ÜNİVERSİTESİ - University_Exam_Question_Answers_Data_Structures_Lesson
 
 **Soru 1 :** Aşağıdaki veri türlerinden hangilerinde sayısal ve metinsel ifadeler birlikte kullanılabilir?
    * Tuple
