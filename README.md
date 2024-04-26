@@ -29,5 +29,30 @@
 *  append() yöntemi kullanılarak listenin sonuna *"un"* öğesi eklenmiştir.
 *  pop() yöntemi çağrılmış ve listenin son öğesi olan "un" öğesi çıkarılmıştır ve ekrana yazdırılmıştır.
 
+<br><br>
+
+**Soru 3 :** Aşağıdaki verinin türü nedir?
+```Haftaİçi = ("Pazartesi")```
+
+**Cevap :** *Tuple*
+
+**EK:** Tuple, Python'da kullanılan bir veri türüdür. Liste gibi sıralı ve değiştirilebilir veri yapılarından farklı olarak, tuple'lar sıralı ve değiştirilemez (immutable) veri yapılarıdır. Bu, bir kere oluşturulduktan sonra içeriğinin değiştirilemeyeceği anlamına gelir. 
+* Tuple'lar parantez içinde ve virgülle ayrılmış öğelerden oluşur. Örneğin:  <br>
+```my_tuple = (1, 2, 3, 4, 5)```
+*  Tuple'lar genellikle farklı veri tiplerinden öğeler içerebilir ve karışık veri yapılarında kullanılabilirler. Örneğin: <br>
+```mixed_tuple = ("apple", 3, True, 2.5)```
+* Tuple'lar genellikle sabit veri koleksiyonları için kullanılır ve verilerin değiştirilemezliği nedeniyle, programların güvenli ve tutarlı çalışmasını sağlarlar. Tuple'lar ayrıca işlevlerden birden fazla değer döndürmek için de kullanılır. Örneğin: <br>
+```def get_coordinates():```
+    ```return (10, 20)```
+
+```x, y = get_coordinates()```
+```print("x:", x)```
+```print("y:", y)```
+
+
+
+
+
+
 
 
