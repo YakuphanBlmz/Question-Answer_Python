@@ -301,6 +301,7 @@ y
 t
 ```
 
+<br><br> 
 
 **TEŞEKKÜRLER** 
 
