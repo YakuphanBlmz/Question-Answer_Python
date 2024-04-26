@@ -20,8 +20,14 @@
 <br><br>
 
 **Soru 2 :** Aşağıdaki programın ekran çıktısı hangisidir?<br>
-```l1 = ["Süt", "Yumurta", "Kabartma Tozu"]```
-```l1.append("un")```
-```print(l1.pop())```
+```l1 = ["Süt", "Yumurta", "Kabartma Tozu"]```<br>
+```l1.append("un")```<br>
+```print(l1.pop())```<br><br>
+
+**Cevap :** Çıktı şu şekilde olacaktır : **```un```**<br>
+*  İlk olarak, *l1* adında bir liste oluşturulmuştur: ```["Süt", "Yumurta", "Kabartma Tozu"]```
+*  append() yöntemi kullanılarak listenin sonuna *"un"* öğesi eklenmiştir.
+*  pop() yöntemi çağrılmış ve listenin son öğesi olan "un" öğesi çıkarılmıştır ve ekrana yazdırılmıştır.
+
 
 
