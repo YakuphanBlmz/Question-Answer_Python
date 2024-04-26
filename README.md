@@ -1,4 +1,4 @@
-# Question-Answer_Python
+![icon@2x](https://github.com/YakuphanBlmz/Question-Answer_Python/assets/106194461/1e146c2d-6719-4405-8130-c6a4ce9dc937)# Question-Answer_Python
 
 **Soru 1 :** Aşağıdaki veri türlerinden hangilerinde sayısal ve metinsel ifadeler birlikte kullanılabilir?
    * Tuple
@@ -54,11 +54,62 @@ print("y:", y)
 ```
 <br><br>
 
+**Soru 3 :** Aşağıdaki programın ekran çıktısı nedir?<br>
+```
+a = [1,2,3,4,5]
+print(a.index(3))
+```
+
+**Cevap :** Cevabımız *2* sayısıdır. Nedeni ise bu kodu çalıştırdığımızda, *a* listesinde bulunan *index()* yöntemi çağrılır. Bu yöntem, **belirtilen öğenin indeksini döndürür.** Kodun **çıktısı ise 2** olacaktır. Çünkü **3 öğesi a listesinde 2. indekste** bulunmaktadır.
+
+<br><br>
+
+**Soru 4 :** Aşağıdaki programın ekran çıktısı nedir?<br>
+```
+a = [1,2,3]
+a.reverse()
+print(a[-1])
+```
+
+**Cevap :** Cevabımız *1* sayısıdır. Nedeni ise bu kodu çalıştırdığımızda, önce *a* listesi ters çevrilir *(reverse() yöntemi kullanılarak)*. Sonrasında, *print(a[-1])* ifadesiyle **listenin son öğesi ekrana** yazdırılır. **Ters çevrildikten sonra listenin son öğesi, başlangıçta listenin ilk öğesiydi**, yani 1. Dolayısıyla çıktı 1 olacaktır.
 
 
+<br><br>
+
+**Soru 5 :** Aşağıdaki ifadelerin hangisinde/hangilerinde liste oluşturma satırı doğru olarak yazılmıştır?<br>
+```
+isimListesi1 = ("Yakuphan","Enes","Muhammed","Gürkan","Furkan")
+
+isimListesi2 = [Yakuphan,Enes,Muhammed,Gürkan,Furkan]
+
+isimListesi3 = ["Yakuphan","Enes","Muhammed","Gürkan","Furkan"]
+
+isimListesi4 = Yakuphan,Enes,Muhammed,Gürkan,Furkan
+
+isimListesi5 = "Yakuphan","Enes","Muhammed","Gürkan","Furkan"
+```
 
 
+**Cevap :** Cevap **isimListesi3**'tür. Bu satır, listenin öğelerini " " (çift tırnak) içine alır ve virgülle ayrılarak bir liste oluşturur. Peki diğer ifadeler nedir?
+*  **isimListesi1** : Bir tuple oluşturur.
+*  **isimListesi2** : İçindeki isimlerin tırnak işaretleri olmadığı için geçerli bir Python ifadesi değildir.
+*  **isimListesi4** : Bir tuple oluşturur, ancak içindeki isimlerin tırnak işaretleri olmadığı için geçerli bir Python ifadesi değildir.
+*  **isimListesi5** : Öğeleri çift tırnak işaretleri içinde virgülle ayrılarak bir tuple oluşturur. Bu da geçerli bir Python ifadesidir, ancak özellikle bir liste oluşturmak için kullanılmamıştır, tuple oluşturmuştur.
 
+Eğer sizde kendi ortamınızda kodları deneyip görmek isterseniz aşağıdan kopyalayıp yapıştırarak bakabilirsiniz :
+```
+isimListesi1 = ("Yakuphan","Enes","Muhammed","Gürkan","Furkan")
+print(type(isimListesi1))
 
+isimListesi2 = [Yakuphan,Enes,Muhammed,Gürkan,Furkan]
+print(type(isimListesi2))
 
+isimListesi3 = ["Yakuphan","Enes","Muhammed","Gürkan","Furkan"]
+print(type(isimListesi3))
 
+isimListesi4 = Yakuphan,Enes,Muhammed,Gürkan,Furkan
+print(type(isimListesi4))
+
+isimListesi5 = "Yakuphan","Enes","Muhammed","Gürkan","Furkan"
+print(type(isimListesi5))
+```
